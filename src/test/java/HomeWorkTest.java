@@ -1,5 +1,3 @@
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
 import org.junit.Test;
 
 import static com.codeborne.selenide.Condition.text;
