@@ -1,16 +1,10 @@
 package work1;
 
-import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Configuration;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
-import static com.codeborne.selenide.CollectionCondition.size;
-import static com.codeborne.selenide.Condition.exactText;
-import static com.codeborne.selenide.Condition.text;
-
 import static com.codeborne.selenide.Selenide.*;
 
 /**
@@ -28,7 +22,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TodoMVCTest {
     @Before
-    public void setUp(){
+    public void setUp() {
         Configuration.pageLoadStrategy = "normal";
     }
 
