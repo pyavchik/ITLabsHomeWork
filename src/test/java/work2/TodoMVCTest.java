@@ -22,10 +22,12 @@ public class TodoMVCTest extends BaseTest {
         delete("2");
         assertTasks("1", "3", "4");
 
+        //complete
         toggle("4");
         clearCompleted();
         assertTasks("1", "3");
 
+        //complete all
         toggleAll();
         clearCompleted();
         assertTasks();
@@ -55,12 +57,10 @@ public class TodoMVCTest extends BaseTest {
         tasks.find(exactText(taskText)).hover().find(".destroy").click();
     }
 
-    //complete
     private void toggle(String taskText) {
         tasks.find(exactText(taskText)).find(".toggle").click();
     }
 
-    //complete all
     private void toggleAll() {
         $("#toggle-all").click();
     }
