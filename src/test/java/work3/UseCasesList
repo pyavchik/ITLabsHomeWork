@@ -1,0 +1,27 @@
+
+Operations:
+    add, edit, delete, mark completed, mark all completed, clear
+
+Contexts-filters:
+    - all
+        add
+        edit
+        delete
+        mark completed
+        mark all completed
+        clear
+    - active
+        add
+        edit
+        delete
+        mark completed
+        mark all completed
+        clear
+    - completed
+        add
+        edit
+        delete
+        mark uncompleted
+        mark all uncompleted
+        clear
+
