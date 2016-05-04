@@ -1,14 +1,22 @@
 
 Operations:
-    add, edit, delete, mark completed, mark all completed, clear
+    add, edit, delete, complete, complete all, reopen, reopen all, clear
+
+Different operations:
+    add large texts
+    add as ctrl + V
+    add few strings
+    add without enter button
+    edit as ctrl + V
+    edit without enter button
 
 Contexts-filters:
     - all
         add
         edit
         delete
-        mark completed
-        mark all completed
+        complete
+        complete all
         clear
     - active
         add
@@ -18,10 +26,30 @@ Contexts-filters:
         mark all completed
         clear
     - completed
+        edit
+        delete
+        reopen
+        reopen all
+        clear
+
+General:
+    -items left
         add
         edit
         delete
-        mark uncompleted
-        mark all uncompleted
+        complete
+        complete all
         clear
+
+Switching between filters:
+    -all
+        available from active
+        available from completed
+    -active
+        available from all
+        available from completed
+    -completed
+        available from all
+        available from active
+
 
