@@ -16,8 +16,8 @@ Contexts-filters:
         add
         edit
         delete
-        mark completed
-        mark all completed
+        complete
+        complete all
         clear completed
     - completed
         edit
