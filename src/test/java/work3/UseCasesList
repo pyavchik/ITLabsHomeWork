@@ -11,20 +11,20 @@ Contexts-filters:
         complete all
         reopen
         reopen all
-        clear
+        clear completed
     - active
         add
         edit
         delete
         mark completed
         mark all completed
-        clear
+        clear completed
     - completed
         edit
         delete
         reopen
         reopen all
-        clear
+        clear completed
 
 Additional operations:
     cancel edit by press Escape
@@ -45,5 +45,3 @@ Switching from filter to filters:
     -completed
         all
         active
-
-
