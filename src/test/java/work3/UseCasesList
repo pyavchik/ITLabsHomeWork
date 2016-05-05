@@ -1,14 +1,6 @@
 
 Operations:
-    add, edit, delete, complete, complete all, reopen, reopen all, clear
-
-Different operations:
-    add large texts
-    add as ctrl + V
-    add few strings
-    add without enter button
-    edit as ctrl + V
-    edit without enter button
+    add, edit, delete, complete, complete all, reopen, reopen all, clear completed
 
 Contexts-filters:
     - all
@@ -17,6 +9,8 @@ Contexts-filters:
         delete
         complete
         complete all
+        reopen
+        reopen all
         clear
     - active
         add
@@ -32,24 +26,24 @@ Contexts-filters:
         reopen all
         clear
 
-General:
-    -items left
-        add
-        edit
-        delete
-        complete
-        complete all
-        clear
+Additional operations:
+    cancel edit by press Escape
+    confirm edit by press Tab
+    confirm edit by click outside
+    delete by emptying text
 
-Switching between filters:
+General:
+    -items left counting
+
+Switching from filter to filters:
     -all
-        available from active
-        available from completed
+        active
+        completed
     -active
-        available from all
-        available from completed
+        all
+        completed
     -completed
-        available from all
-        available from active
+        all
+        active
 
 
